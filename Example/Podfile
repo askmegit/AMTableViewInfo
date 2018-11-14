@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMTableViewInfo_Example' do
+  pod 'AMTableViewInfo', :path => '../'
+
+  target 'AMTableViewInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
