@@ -1,0 +1,6 @@
+framework module AMTableViewInfo {
+  umbrella header "AMTableViewInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

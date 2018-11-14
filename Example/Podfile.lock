@@ -1,0 +1,16 @@
+PODS:
+  - AMTableViewInfo (0.1.0)
+
+DEPENDENCIES:
+  - AMTableViewInfo (from `../`)
+
+EXTERNAL SOURCES:
+  AMTableViewInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMTableViewInfo: ce0075e17c1b88d4b63d9d6dff0fddb429873fd8
+
+PODFILE CHECKSUM: 651ca3e2d784cb593bcaf979562ae8209c10f9f1
+
+COCOAPODS: 1.5.3
