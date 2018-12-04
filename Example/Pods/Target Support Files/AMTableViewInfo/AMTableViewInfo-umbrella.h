@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "AMDZNEmptyInfo.h"
+#import "AMTableViewCell.h"
+#import "AMTableViewCellInfo.h"
+#import "AMTableViewInfo.h"
+#import "AMTableViewSectionInfo.h"
 
 FOUNDATION_EXPORT double AMTableViewInfoVersionNumber;
 FOUNDATION_EXPORT const unsigned char AMTableViewInfoVersionString[];

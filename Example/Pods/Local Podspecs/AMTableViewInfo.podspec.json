@@ -1,22 +1,30 @@
 {
   "name": "AMTableViewInfo",
   "version": "0.1.0",
-  "summary": "A short description of AMTableViewInfo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/83076130@qq.com/AMTableViewInfo",
+  "summary": "简单快捷的创建 tableView",
+  "description": "快速创建tableview, cell 高度有自动高度和固定高度两种方式,三方组件MJRefresh,DZNEmptyDataSet可选.",
+  "homepage": "https://github.com/askmegit/AMTableViewInfo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "83076130@qq.com": "83076130@qq.com"
+    "askmegit": "83076130@qq.com"
   },
   "source": {
-    "git": "https://github.com/83076130@qq.com/AMTableViewInfo.git",
+    "git": "https://github.com/askmegit/AMTableViewInfo.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AMTableViewInfo/Classes/**/*"
+  "source_files": "AMTableViewInfo/Classes/**/*",
+  "dependencies": {
+    "DZNEmptyDataSet": [
+      "~> 1.8.1"
+    ],
+    "MJRefresh": [
+      "~> 3.1.15.7"
+    ]
+  }
 }

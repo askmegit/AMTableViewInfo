@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-快速创建tableview,三方组件MJRefresh,DZNEmptyDataSet可选.
+快速创建tableview, cell 高度有自动高度和固定高度两种方式,三方组件MJRefresh,DZNEmptyDataSet可选.
                        DESC
 
   s.homepage         = 'https://github.com/askmegit/AMTableViewInfo'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/askmegit/AMTableViewInfo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'AMTableViewInfo/Classes/**/*'
   
@@ -38,5 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
+  s.dependency 'MJRefresh', '~> 3.1.15.7'
 end
